@@ -47,3 +47,10 @@ head tag contains meta data for the webpage
 Block elements appears as boxes, e.g div, section
 Inline elements appers as a line e.g link,
 To set an inline element as block we just style the css property to "block"
+
+
+CDN - content delivery network
+some libraries for fonts and icons inlcude; font awesome, bootstrap, material ui
+Bootstarp can be used to import components 
+
+SDK- Software development kit

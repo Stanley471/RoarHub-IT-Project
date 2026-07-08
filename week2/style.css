@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.white-center-card {
+    background-color: white;
+    padding: 20px 10px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.white-center-card h1{
+    color: cadetblue;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.details-section-row {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Yuyu Short", sans-serif;
+}
+.details-section-row small {
+    margin-left: auto;
+}
+.details-section-row img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 30px;
+}
+
+button {
+    background-color: chocolate;
+    cursor: pointer;
+    padding: 12px 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.row1 {
+    background-color: blue;
+    color: white;
+}
+button:hover {
+    background-color: blue;
+    transition: 3s;
+}

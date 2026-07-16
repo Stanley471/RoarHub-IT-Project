@@ -39,3 +39,6 @@ rem
 These are elemets whose contents and appearance come from outside the css/html documentrather than rendering the text/markup you wrote directly. they include: img, video,iframe, input, canvas, embed. normal elements lik div and p get their content and size from what you write inside them, meanhwile replaced elements have intrinsic dimensions i.e a photo has a natural width and height that coems from extenrnal resources and not from css.
 ### Object fit and Object height 
 they exist only for replaced elements a
+
+
+Linear gradients and RGB,, backdrop filter

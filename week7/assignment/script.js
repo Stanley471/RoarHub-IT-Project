@@ -14,7 +14,7 @@ checkBtn.addEventListener("click", async () => {
     return;
   }
   resultDiv.textContent = "Loading...";
-  try {
+  try {8
     const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true`;
     const result = await fetch(url);
     const data = await result.json();
